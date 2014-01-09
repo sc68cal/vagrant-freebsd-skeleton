@@ -1,0 +1,3 @@
+Package {
+  provider => pkgng
+}

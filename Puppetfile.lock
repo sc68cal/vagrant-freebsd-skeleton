@@ -1,0 +1,10 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/stdlib (4.1.0)
+    zleslie/pkgng (0.1.1)
+      puppetlabs/stdlib (>= 0.0.0)
+
+DEPENDENCIES
+  zleslie/pkgng (>= 0)
+
