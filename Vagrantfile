@@ -1,8 +1,8 @@
 # -*- mode: ruby; -*-
 Vagrant.configure("2") do |config|
   config.vm.guest = :freebsd
-  config.vm.box_url = "https://masakari.coreitpro.com/vagrant_boxes/freebsd-9.2-amd64-puppet-coreitpro.box"
-  config.vm.box = "freebsd-9.2.amd64-puppet-coreitpro"
+  config.vm.box_url = "https://s3.amazonaws.com/coreitpro_vagrant_boxes/freebsd10.box"
+  config.vm.box = "freebsd10"
   config.vm.network "private_network", ip: "10.0.1.10"
 
   # Use NFS as a shared folder
